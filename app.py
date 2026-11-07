@@ -30,7 +30,13 @@ except Exception as error:
     st.error(f"Could not load model metadata: {error}")
     st.stop()
 
-uploaded_file = st.file_uploader("Upload test CSV file", type=["csv"])
+uploaded_file = st.file_uploader(
+    "Upload your test CSV",
+    type=["csv"]
+)
+
+if uploaded_file is not None:
+    data = pd.read_csv(uploaded_file)
 model_name = st.selectbox("Select classification model", list(metadata["model_files"].keys()))
 
 if uploaded_file is not None:
