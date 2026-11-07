@@ -570,7 +570,7 @@ with tab3:
 
     cm = confusion_matrix(y, predictions, labels=labels)
 
-    fig, ax = plt.subplots(figsize=(6, 5))
+    fig, ax = plt.subplots(figsize=(4, 3.2), dpi=100)
     fig.patch.set_facecolor(plot_bg)
     ax.set_facecolor(plot_bg)
 
