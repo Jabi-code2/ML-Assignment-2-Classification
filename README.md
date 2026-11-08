@@ -36,7 +36,7 @@ The following five classification models were implemented and evaluated on the s
 | Decision Tree          |     0.9123 | 0.9157 |      0.9161 |   0.9123 |     0.913  | 0.8174 |
 | KNN                    |     0.9561 | 0.9788 |      0.9561 |   0.9561 |     0.956  | 0.9054 |
 | Naive Bayes            |     0.9386 | 0.9878 |      0.9384 |   0.9386 |     0.9384 | 0.8676 |
-| Support Vector Machine |     0.9825 | 0.995  |      0.9825 |   0.9825 |     0.9825 | 0.9623 |
+| Support Vector Machine |     0.9825 | 0.9950 |      0.9825 |   0.9825 |     0.9825 | 0.9623 |
 
 ### Observations on Model Performance
 
