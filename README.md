@@ -16,7 +16,7 @@ The objective of this assignment is to implement five machine learning classific
 
 ## c. GitHub Repository Link
 
-**GitHub Repository:** Add your actual GitHub repository URL here.
+**GitHub Repository:**  https://github.com/Jabi-code2/ML-Assignment-2-Classification.git
 
 ## d. Models Used
 
@@ -59,3 +59,5 @@ The overall winner is selected based on the highest weighted F1 score among the 
 The Streamlit application allows users to upload test data, select a classification model and view evaluation metrics, confusion matrix and classification report.
 
 The application loads the saved models and evaluates the uploaded test data without retraining.
+
+**Application URL:** https://ml-assignment-2-jabi.streamlit.app/
